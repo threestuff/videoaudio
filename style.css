@@ -1,0 +1,214 @@
+/* Step 1: Basic Reset and Base Styles */
+
+body {
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    color: #222222;
+    line-height: 1.6;
+  }
+
+  p {
+    font-size: 2rem;
+  }
+  
+  h1, h2, p {
+    margin: 0 0 1rem 0;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    padding: 1rem 0;
+  }
+  
+  /* Step 2: Header Styles */
+
+header {
+    background-color: #f4f4f4;
+    padding: 0.5rem 0.5rem;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  header h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    letter-spacing: 1px;
+  }
+  
+  header p {
+    font-size: 1.1rem;
+    color: #666666;
+  }
+  
+  /* Step 3: Navigation Menu Styles */
+
+nav.menu {
+    background-color: #f4f4f4;
+    padding: 1rem 0;
+  }
+  
+  nav.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  nav.menu a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    transition: color 0.2s ease-in-out;
+  }
+  
+  nav.menu a:hover {
+    color: #474747;
+  }
+
+  .hero-content {
+    background-color: #f4f4f4;
+    padding: rem 1rem;
+    text-align: center;
+  }
+  
+  .hero-content h1 {
+    margin-bottom: 1rem;
+  }
+  
+  .hero-content p {
+    margin-bottom: 1.5rem;
+  }
+  
+
+.cta-button {
+    background-color: #222;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+}
+
+  
+  .cta-button:hover {
+    background-color: #444;
+  }
+
+  /* Step 6: Slideshow Styles */
+#stills-gallery {
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .slideshow-container {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .slideshow {
+    display: flex;
+    transition: transform 0.5s ease;
+    justify-content: center;
+  }
+  
+  .slideshow img {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    margin: 0 auto;
+  }
+
+  
+  button {
+    position: absolute;
+    top: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: none;
+    padding: 1rem;
+    font-size: 2rem;
+    cursor: pointer;
+    z-index: 1;
+  }
+  
+  .slideshow-prev {
+    left: 0;
+    transform: translateY(-50%);
+  }
+  
+  .slideshow-next {
+    right: 0;
+    transform: translateY(-50%);
+  }
+  
+  button:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #f4f4f4;
+    color: #333;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+h1 a {
+    color: inherit;
+    text-decoration: none;
+  }
+.hero-content ul {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 0;
+    font-size: 2rem;
+}
+
+.hero-content ul li {
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.hero-content i {
+    margin-right: 0.5rem;
+    color: #333;
+}
+  
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    position: fixed;
+    bottom: 3rem;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 0;
+}
+
+.social-icons a {
+    color: #333;
+    font-size: 2.5rem;
+    transition: color 0.3s ease;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: #555;
+}
+
+.hero-content ul li a i {
+    font-size: 5rem;
+    margin: 1rem 0;
+    margin-right: 2rem;
+    margin-left: 2rem;;
+}
+
